@@ -4,3 +4,4 @@ gitflow test2
 
 git flow test3
 trigger ci
+trigger main CI
