@@ -2,9 +2,9 @@ name: quick-ci
 
 on:
   pull_request:
-    branches: [develop]        # develop로 향하는 PR에서 실행
+    branches: [develop, main]        # develop로 향하는 PR에서 실행
   push:
-    branches: ["feature/**"]   # feature/* 브랜치에 push 할 때 실행 (연습용)
+    branches: ["feature/**", "release/**", "hotfix/**"]   # feature/* 브랜치에 push 할 때 실행 (연습용)
 
 jobs:
   check:
